@@ -27,13 +27,13 @@ Setup (install dependencies, create and seed database):
 
 ```
 cd pingcrm
-bin/setup
+DB_HOST=localhost DB_USER=postgres DB_PASSWORD=postgres bin/setup
 ```
 
 Start it:
 
 ```
-bin/dev
+DB_HOST=localhost DB_USER=postgres DB_PASSWORD=postgres bin/dev
 ```
 
 You're ready to go! Visit PingCRM in your browser (http://localhost:3000), and login with:
@@ -54,6 +54,10 @@ rails test:system
 - Ruby 3.3
 - Ruby on Rails 7.2
 - PostgreSQL
+
+## Future work
+
+- Add [material design tailwind](https://www.material-tailwind.com/docs/html/guide/vue-vite) to the project
 
 ## Credits
 
