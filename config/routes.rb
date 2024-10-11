@@ -26,5 +26,7 @@ Rails.application.routes.draw do
     member { put 'restore' }
   end
 
+  get 'admin' => 'admin#index'
+
   root 'dashboard#index'
 end

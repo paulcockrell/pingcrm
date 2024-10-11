@@ -23,5 +23,6 @@ class Ability
     can :manage, User, account_id: user.account_id
     can :manage, Contact, account_id: user.account_id
     can :manage, Organization, account_id: user.account_id
+    can :manage, :admin
   end
 end

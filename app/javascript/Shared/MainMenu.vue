@@ -100,6 +100,32 @@
         </div>
       </Link>
     </div>
+    <div class="mb-4">
+      <Link
+        class="group flex items-center py-3"
+        :href="$routes.admin()"
+        aria-label="Admin"
+      >
+        <icon
+          name="printer"
+          class="mr-2 h-4 w-4"
+          :class="
+            isUrl('reports')
+              ? 'fill-white'
+              : 'fill-indigo-400 group-hover:fill-white'
+          "
+        />
+        <div
+          :class="
+            isUrl('reports')
+              ? 'text-white'
+              : 'text-indigo-300 group-hover:text-white'
+          "
+        >
+          Admin
+        </div>
+      </Link>
+    </div>
   </nav>
 </template>
 
