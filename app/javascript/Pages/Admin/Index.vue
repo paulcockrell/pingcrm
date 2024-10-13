@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Head title="{{props.title}}" />
+    <Head title="Admin" />
     <h1 class="mb-8 text-3xl font-bold">
       {{ title }}
     </h1>

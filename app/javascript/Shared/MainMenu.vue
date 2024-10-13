@@ -110,14 +110,14 @@
           name="printer"
           class="mr-2 h-4 w-4"
           :class="
-            isUrl('reports')
+            isUrl('admin')
               ? 'fill-white'
               : 'fill-indigo-400 group-hover:fill-white'
           "
         />
         <div
           :class="
-            isUrl('reports')
+            isUrl('admin')
               ? 'text-white'
               : 'text-indigo-300 group-hover:text-white'
           "
